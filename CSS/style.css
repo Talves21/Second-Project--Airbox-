@@ -1,0 +1,48 @@
+nav{
+    display: flex;
+    background-color: #262336;
+    justify-content: space-between;
+}
+
+nav h2{
+    background: linear-gradient(#dedee1, #a7a5b0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+nav p{
+    color: #8f8c9d;
+    font-size: 20px;
+}
+
+.logo{
+    display: flex;
+}
+
+.logo p{
+    padding: 10px;
+}
+
+.logoText{
+    padding-left: 45px;
+}
+
+.navLink{
+
+}
+
+.navLink ul{
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+
+    :hover{
+        text-decoration: underline;
+    }
+}
+
+.navLink a{
+    color: #53647d;
+    text-decoration: none;
+    text-align: end;
+}
